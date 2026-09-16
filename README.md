@@ -1,5 +1,11 @@
 # 💍 Wedding Card — Digital Wedding Invitation
 
+
+
+https://github.com/user-attachments/assets/3724c0cc-6d74-4c5c-81b9-7e6c3767d692
+
+
+
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Himanshu--b20%2FWedding--Card-181717?logo=github)](https://github.com/Himanshu-b20/Wedding-Card)
 
 A luxury, animated **digital wedding invitation website** built with React, TypeScript, Vite, and Tailwind CSS. Features a cinematic scroll-through temple portal, live countdown, RSVP form, wishes wall, and ambient music — all powered by a single data file you can customise in minutes.
