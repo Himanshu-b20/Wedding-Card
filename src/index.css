@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-ivory-light: #FFF9EF;
+    --color-ivory: #F8F0E3;
+    --color-maroon: #6E1F2E;
+    --color-maroon-dark: #42131E;
+    --color-gold: #B5965A;
+    --color-brown: #291C1A;
+  }
+
+  body {
+    background-color: var(--color-ivory-light);
+    color: var(--color-brown);
+    overflow-x: hidden;
+  }
+}
+
+@layer utilities {
+  .text-gold-gradient {
+    background: linear-gradient(135deg, #E6CA85 0%, #B5965A 50%, #8E6F33 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .bg-gold-gradient {
+    background: linear-gradient(135deg, #E6CA85 0%, #B5965A 50%, #8E6F33 100%);
+  }
+
+  .border-gold-subtle {
+    border-color: rgba(181, 150, 90, 0.35);
+  }
+
+  .border-gold-double {
+    border: 3px double rgba(181, 150, 90, 0.5);
+  }
+}
+
+/* Custom delicate scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F8F0E3;
+}
+::-webkit-scrollbar-thumb {
+  background: #B5965A;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #6E1F2E;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
