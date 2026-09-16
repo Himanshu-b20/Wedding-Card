@@ -95,7 +95,11 @@ export const CoupleStory: React.FC = () => {
             </h3>
           </div>
 
-          <div className="relative border-l-2 border-gold-500/30 ml-4 md:ml-1/2 md:-translate-x-1/2 space-y-12 py-4">
+          <div className="relative">
+            {/* Centred vertical line */}
+            <div className="absolute left-4 md:left-1/2 top-0 bottom-0 w-0.5 bg-gold-500/30 md:-translate-x-px" />
+
+            <div className="relative space-y-12 py-4">
             {weddingData.story.map((milestone, idx) => (
               <motion.div
                 key={milestone.year}
@@ -127,7 +131,9 @@ export const CoupleStory: React.FC = () => {
                 </div>
               </motion.div>
             ))}
+            </div>
           </div>
+
         </div>
 
         {/* The Carousel */}
