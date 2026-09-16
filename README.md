@@ -1,4 +1,6 @@
-# 💍 Shaadi Card — Digital Wedding Invitation
+# 💍 Wedding Card — Digital Wedding Invitation
+
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Himanshu--b20%2FWedding--Card-181717?logo=github)](https://github.com/Himanshu-b20/Wedding-Card)
 
 A luxury, animated **digital wedding invitation website** built with React, TypeScript, Vite, and Tailwind CSS. Features a cinematic scroll-through temple portal, live countdown, RSVP form, wishes wall, and ambient music — all powered by a single data file you can customise in minutes.
 
@@ -57,8 +59,8 @@ npm -v
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-repo-url>
-cd "Shaadi Card"
+git clone https://github.com/Himanshu-b20/Wedding-Card.git
+cd Wedding-Card
 ```
 
 ---
@@ -156,7 +158,7 @@ Open [http://localhost:5173](http://localhost:5173) in your browser. Changes hot
 ## 🏗️ Project Structure
 
 ```
-Shaadi Card/
+Wedding-Card/
 ├── public/
 │   ├── temple-mandap.png        # Hero portal artwork
 │   ├── favicon.svg
